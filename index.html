@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+    </nav>
+
+    <div class="container">
+        <h1>Travel Planner</h1>
+        <form id="travelForm">
+            <label for="place">Enter Place:</label>
+            <input type="text" id="place" name="place" placeholder="e.g., Paris" required>
+
+            <label for="dates">Travel Dates:</label>
+            <input type="text" id="dates" name="dates" placeholder="e.g., 2025-02-01 to 2025-02-10" required>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+        <div class="footer">
+            Powered by Your Travel Planner
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
